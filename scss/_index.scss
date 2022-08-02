@@ -1,0 +1,59 @@
+
+
+
+.segundoTitulo{
+    padding: 5px;
+    margin-top: 10px;
+}
+.seccionmain{
+    display: flex;
+    margin: 10px;
+}
+.main__p{
+    padding-right: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    border-top: solid 1px black;
+}
+.ul_footer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: flex-start;   
+    flex-wrap: nowrap;
+}
+h4{
+    padding: 15px;
+}
+.falsoCarrousel{
+    width: 60%;
+    height: 400px;
+    margin: 15px auto;
+    border: solid 1px;
+    background-image: url(./imagenes/signos-fondo.jfif);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    animation: carrousel 5s infinite;
+}
+@keyframes carrousel{
+    0%{
+        background-image: url(/imagenes/libra2.jfif)
+    }
+    50%{
+        background-image: url(./imagenes/image.romi.fondo2.jpeg);
+    }
+
+}
+.barranavegacion1{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}

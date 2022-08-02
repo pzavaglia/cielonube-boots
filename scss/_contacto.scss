@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 10px;
+}
+.botonContacto{
+    display: flex;
+    justify-content: center;
+}
+.boton_contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    margin-left: -90px;
+}
+.imagenContacto{
+margin-left: 20px;
+}
+.botonContacto{
+    display: flex;
+    margin: 200px;
+}
+.formulario{
+    border: solid 1px black;
+    padding: 10px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
