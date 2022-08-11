@@ -1,23 +1,38 @@
 
-
-
 .segundoTitulo{
     padding: 5px;
     margin-top: 10px;
+/*     display: flex;
+    flex-wrap: nowrap; */
 }
 .seccionmain{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     margin: 10px;
+    width: 100%;
 }
 .main__p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding-right: 20px;
+    width: 100%;
+    font-size: xx-large;
 }
 
-.footer{
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer_nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
+    width: 100%;
     border-top: solid 1px black;
 }
 .ul_footer{
@@ -30,7 +45,7 @@
 h4{
     padding: 15px;
 }
-.falsoCarrousel{
+/* .falsoCarrousel{
     width: 60%;
     height: 400px;
     margin: 15px auto;
@@ -39,7 +54,7 @@ h4{
     background-repeat:  no-repeat;
     background-size: cover;
     animation: carrousel 5s infinite;
-}
+} */
 @keyframes carrousel{
     0%{
         background-image: url(/imagenes/libra2.jfif)
@@ -50,10 +65,28 @@ h4{
 
 }
 .barranavegacion1{
-    background-color: blueviolet;
+    background-color: rgba(128, 128, 128, 0.094);
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: flex-end;
+    flex-grow: initial;
     list-style: none;
+    
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+main{
+    color: white;
+    background-image: url(../imagenes/prueba...jpg);
+    background-color: rgba(0, 0, 0, 0.046);
+    
+
+}
+body{
+    background-image: url(../imagenes/prueba...jpg);
 }

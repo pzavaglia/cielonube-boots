@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,31 +10,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap" rel="stylesheet">
     <!-- CSS -->   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Cielo.Nube.Cielo</title>
 </head>
 <body>
-    <header class="flex__container">   
+    <header class="flex__container"> 
+      <section class="seccionHeader">
         <div class="container">
-            <div class="caja item1">
-                <a href="./index.html">
-                <img src="./imagenes/logo.PNG" alt="logo de mi pagina"> 
-                </a>   
-            </div>
-            <div class="caja item2">
-                    <h1 class="flex__container__item list" id="TituloUnico">Cielo Nube Cielo</h1>
-            </div>
+                    <div>
+                      <a href="./index.html">
+                      <img src="./imagenes/logo.PNG" alt="logo de mi pagina"> 
+                      </a>   
+                    </div>
+              <div class="caja item2">
+                      <h1 class="flex__container__item list" id="TituloUnico">Cielo Nube Cielo</h1>
+              </div>
         </div>
+      </section> 
         <nav class="navbar navbar-expand-lg barranavegacion1">
             <div class="container">
-              <a class="navbar-brand" href="#">Inicio</a>
+              <a class="navbar-brand active" href="#">Inicio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href=".//paginass/contacto.html">contacto</a>
+                    <a class="nav-link " aria-current="page" href=".//paginass/contacto.html">contacto</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href=".//paginass/quien-soy.html">¿Quien Soy?</a>
@@ -51,26 +53,24 @@
           </nav>                   
     </header>
     <main>
-        <div class="segundoTitulo">
-            <h2 class="segundaSeccion2">Astrologia evolutiva</h2>
-        </div>     
-        <section class="seccionmain">
-                    <p class="main__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus non inventore accusantium dolore debitis esse voluptas eligendi iusto eos officiis autem, adipisci quaerat eum excepturi corporis ipsa ad quibusdam ipsum!
-                        Recusandae exercitationem excepturi aliquam unde eum! Porro ea dolorum, animi error quam laudantium sed molestiae inventore doloribus iste fuga, sequi quo deleniti nesciunt dolore quasi facilis? Obcaecati, reiciendis quo. Consequuntur!
-                        Architecto tempore, nihil accusantium voluptatibus blanditiis beatae consequatur voluptatum ducimus praesentium deserunt sit esse corporis aperiam quaerat similique laudantium reprehenderit. A fugit perspiciatis saepe, officiis numquam distinctio quis iste excepturi.
-                        Earum voluptas repellendus quisquam minima excepturi expedita corrupti quia suscipit harum. Tempore, ratione, maiores ea id, necessitatibus vel beatae illum itaque ipsa dolore optio odio praesentium possimus est et enim.
-                        Fugit, maxime asperiores consequuntur obcaecati cumque perspiciatis repudiandae nisi iusto, temporibus nobis dolor ducimus, amet voluptates! Animi repudiandae, placeat sed voluptatum, minus, corporis in vel aspernatur necessitatibus sint ab provident. ipsum dolor sit amet <span class="resaltador">Pablitooooooooooooooooooooooooooooooo</span> adipisicing elit. <span> repudiandae </span> deserunt ex inventore perspiciatis aperiam! Ea maxime placeat, vero quibusdam dicta modi, provident dolores fuga adipisci illo fugit distinctio explicabo?</p>   
-
-                    <!-- imagen cielo-nube-cielo -->            
-                    <a href="./index.html">
-                        <img src="./imagenes/imagen principal.PNG" alt="foto-institucional" width="500" height="400">
-                    </a>
-        </section>          
+      <div class="flex-container">
+      <section>
+            <div class="segundoTitulo">
+                <h2 class="segundaSeccion2">Astrologia evolutiva</h2>
+            </div>     
+            <section class="seccionmain">
+                        <p class="main__p">La Astrología es consciencia y la consciencia es luz. La luz destierra las sombras de la ignorancia y nos permite fluir en paz con lo que el Universo tiene para ofrecernos. Bajo el Principio Hermético de la Correspondencia, que dicta “Como es arriba, es abajo”, podemos intuir que existe un orden macro que se repite en bucle en los distintos sistemas. Y la Astrología la encargada de manifestar este orden en el Cosmos.
+                        <!-- imagen cielo-nube-cielo -->            
+                        <a href="./index.html">
+                            <img src="./imagenes/imagen principal.PNG" alt="foto-institucional" width="400" height="300">
+                        </a>
+            </section>          
          <div>
                 <div class="boton">
                 <a href="./paginass/tienda.html">tienda</a>
                 </div>
-        </div>   
+        </div> 
+      </div>  
         <section class="image__lista">
             <!-- imagen 1 - imagen 2 - imagen 3  -->
             <a href="./index.html">
@@ -84,13 +84,114 @@
             </a>       
         </section>
     </main>
-    <footer>
-        <div class="footer">      
+
+    <footer> 
+      <div class="container my-5">
+        <footer class="text-center text-lg-start text-white">
+          <section class="d-flex justify-content p-4">        
+            <div class="me-5">
+              <span>Podes ser parte de esta gran comunidad</span>
+            </div>
+            <div>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </section>
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold">Cielo Nube Cielo</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"/>
+                  <p>
+                  Por Romina Jimena Lopez, Astrologa profesional
+                  </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold">Productos de nuestra tienda</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"/>
+                  <p>
+                    <a href="#!" class="text-white">colegas</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">MDWordPress</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">BrandFlow</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Bootstrap Angular</a>
+                  </p>
+                </div>
+                   <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold">Mis redes sociales</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"/>
+                  <p>
+                    <a href="https://www.twitter.com/cielo.nube.cielo/"target="_blank">Twiter</a>
+                  </p>
+                  <p>
+                    <a href="https://www.instagram.com/cielo.nube.cielo/"target="_blank">instagram</a>
+                  </p>
+                  <p>
+                    <a href="https://www.facebook.com/cielo.nube.cielo/"target="_blank">Facebook</a>
+                  </p>
+                  <p>
+                    <a href="https://www.tiktok.com/@astrocielonube"target="_blank">TikTok</a>
+                  </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 class="text-uppercase fw-bold">Contacto</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"/>
+                  <p><i class="fas fa-home mr-3"></i> Argentina, MDQ 7600, BS.AS</p>
+                  <p><i class="fas fa-envelope mr-3"></i> cielonubecielo@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> +549 -2235206005</p>
+                  <p><i class="fas fa-print mr-3"></i> +0810-2220326</p>
+                  <form> <label for="email">suscribase a nuestras novedades </label> <input type="email" id="email"></form>
+                  <input type="submit">
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Copyright -->
+          <div
+               class="text-center p-3">
+            © 2020 Copyright:
+            <a class="text-white" href="www.cieloNubeCielo.com.ar"
+               >CieloNubeCielo</a>
+          </div>
+        </footer>      
+      </div>
+
+
+
+
+
+
+
+
+      <!-- 
+        <section class="footer_nav">      
                 <h4>SEGUIME EN LAS REDES</h4>
              <ul class="ul_footer">               
-                <li ><a href="https://www.instagram.com/cielo.nube.cielo/"target="_blank">instagram</a></li>
-                <li ><a href="https://www.facebook.com/cielo.nube.cielo/"target="_blank">facebook</a></li>
-                <li ><a href="https://www.tiktok.com/@astrocielonube"target="_blank">tiktok</a></li>
+                <li ></li>
+                <li ></li>
              </ul>      
                 <h4>INSTITUCIONAL</h4>
              <ul class="ul_footer">                
@@ -105,11 +206,11 @@
                 <form> <label for="email">su email </label> <input type="email" id="email"></form>
                 <input type="submit">
             </ul>
-        </div>   
+        </section>
         <section class="falsoCarrousel">
-
         </section>     
-    </footer>
+        <div>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

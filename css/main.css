@@ -1,7 +1,216 @@
-/* 
-font-family: 'Merriweather', serif;
-font-family: 'Noto Serif', serif; */
-/* reseteo de CSS */
+.segundoTitulo {
+  padding: 5px;
+  margin-top: 10px;
+  /*     display: flex;
+    flex-wrap: nowrap; */ }
+
+.seccionmain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
+  width: 100%; }
+
+.main__p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-right: 20px;
+  width: 100%;
+  font-size: xx-large; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.footer_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  border-top: solid 1px black; }
+
+.ul_footer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: flex-start;
+  flex-wrap: nowrap; }
+
+h4 {
+  padding: 15px; }
+
+/* .falsoCarrousel{
+    width: 60%;
+    height: 400px;
+    margin: 15px auto;
+    border: solid 1px;
+    background-image: url(./imagenes/signos-fondo.jfif);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    animation: carrousel 5s infinite;
+} */
+@keyframes carrousel {
+  0% {
+    background-image: url(/imagenes/libra2.jfif); }
+  50% {
+    background-image: url(./imagenes/image.romi.fondo2.jpeg); } }
+
+.barranavegacion1 {
+  background-color: rgba(128, 128, 128, 0.094);
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: initial;
+  list-style: none; }
+
+.item1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%; }
+
+main {
+  color: white;
+  background-image: url(../imagenes/prueba...jpg);
+  background-color: rgba(0, 0, 0, 0.046); }
+
+body {
+  background-image: url(../imagenes/prueba...jpg); }
+
 * {
-  margin: 00;
-  padding: 00; }
+  margin: 0;
+  padding: 0; }
+
+/* header */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: solid 1px black;
+  justify-content: flex-end;
+  color: 0;
+  background-image: url(../imagenes/prueba...jpg); }
+
+.seccionHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  align-items: flex-start; }
+
+ul {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  width: 500px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-items: flex-end; }
+
+.container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start; }
+
+.flex__container__item {
+  color: white;
+  display: flex;
+  margin-left: 15px;
+  justify-items: flex-end;
+  width: 100%;
+  height: 100%; }
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin: 15px; }
+
+.image__lista {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  flex-wrap: nowrap; }
+
+.item2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  background-image: url(../imagenes/prueba...jpg); }
+
+.navbar {
+  align-items: flex-end;
+  color: white;
+  width: 50%;
+  height: 150px;
+  font-size: x-large; }
+
+.navbar a {
+  color: white;
+  justify-content: space-between; }
+
+.active {
+  font-size: x-large; }
+
+/*  footer  */
+.footer_nav {
+  color: white;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0%; }
+
+@media screen and (min-width: 768px) {
+  .image__lista {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: 0;
+    margin: 100px;
+    width: 50px; } }
+
+.seccion__quiensoy {
+  display: flex;
+  margin: 10px; }
+
+.seccion2quiensoy {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  width: 100%; }
+
+.seccionServicios {
+  display: flex;
+  padding: 15px; }
+
+.botonServicios1 {
+  display: flex;
+  justify-content: center;
+  padding: 15px; }
+
+.seccionServicios_segundo {
+  display: flex;
+  padding: 10px; }
+
+.primeraseccion__p {
+  padding-right: 10px;
+  padding: 10px; }
+
+.segundaSeccion__p {
+  padding-right: 10px; }
+
+.secciontienda {
+  display: flex;
+  padding: 10px; }
+
+.tienda_p {
+  padding-right: 10px; }
