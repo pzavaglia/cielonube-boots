@@ -73,7 +73,7 @@
         padding: 8px;
     }
 }
-@media screen and(  max-width: 1440px){
+@media screen and(max-width: 1440px){
     .header{
         height: 100%;
         width: 100%;
@@ -92,16 +92,16 @@
     }
 }
 
-
- @media screen and(  max-width: 2560px){
+@media screen and(max-width: 2560px){
     .header{
         height: 100%;
         width: 100%;
-        justify-content: space-around;
+        justify-content: flex-end;
     }
     .buttonMain{
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         width: 100%;
+        justify-content: flex-end;
     }
 }
