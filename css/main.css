@@ -1,321 +1,7 @@
-.segundoTitulo {
-  padding: 5px;
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: nowrap; }
-
-.seccionmain {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-  width: 100%; }
-
-.main__p {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  padding-right: 20px;
-  width: 100%;
-  font-size: xx-large; }
-
-footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%; }
-
-.footer_nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
-  border-top: solid 1px black; }
-
-.ul_footer {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  align-items: flex-start;
-  flex-wrap: nowrap; }
-
-.falsoCarrousel {
-  width: 60%;
-  height: 400px;
-  margin: 15px auto;
-  border: solid 1px;
-  background-image: url(./imagenes/signos-fondo.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: carrousel 5s infinite; }
-
-@keyframes carrousel {
-  0% {
-    background-image: url(/imagenes/libra2.jfif); }
-  50% {
-    background-image: url(./imagenes/image.romi.fondo2.jpeg); } }
-
-.barranavegacion1 {
-  background-color: rgba(128, 128, 128, 0.094);
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: flex-end;
-  flex-grow: initial;
-  list-style: none; }
-
-.item1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%; }
-
-main {
-  color: white;
-  background-image: url(../imagenes/prueba...jpg);
-  background-color: rgba(0, 0, 0, 0.046); }
-
-body {
-  background-image: url(../imagenes/prueba...jpg); }
-
 .card {
   margin: 5px; }
 
-.parrafo__main {
-  margin: 20px;
-  text-align: justify; }
-
-.caja {
-  padding: 10px; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-/* header */
-header {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  justify-content: flex-end;
-  color: 0;
-  background-image: url(../imagenes/prueba...jpg); }
-
-.seccionHeader {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 50px;
-  align-items: flex-start; }
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  justify-items: flex-end; }
-
-.container {
-  color: white;
-  display: grid;
-  flex-direction: column;
-  justify-items: center;
-  align-items: flex-end;
-  height: 100%; }
-
-.caja {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%; }
-
-.flex__container__item {
-  color: white;
-  display: flex;
-  justify-items: flex-end;
-  width: max-content;
-  height: 100%; }
-
-.boton {
-  display: flex;
-  justify-content: center;
-  margin: 15px; }
-
-.item2 {
-  color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  height: 100%;
-  margin-top: 100px;
-  background-image: url(../imagenes/prueba...jpg); }
-
-.li {
-  color: white; }
-
-.navbar {
-  align-items: flex-end;
-  color: white;
-  width: 100%;
-  height: 150px;
-  font-size: x-large; }
-
-.navbar a {
-  color: white;
-  justify-content: space-between;
-  align-items: flex-end;
-  justify-items: end; }
-
-.active {
-  font-size: x-large; }
-
-.tituloContacto {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%; }
-
-.navbar-collapse {
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: flex-end; }
-
-.nav-item {
-  color: white; }
-
-footer {
-  position: relative;
-  color: white; }
-
-.footer__text {
-  color: white; }
-
-footer {
-  margin-left: 0px;
-  margin-right: 0px; }
-
-.navbar-toggler {
-  background-color: rgba(255, 255, 255, 0.259);
-  width: fit-content;
-  height: fit-content; }
-
-.navbar-toggler {
-  background-color: gray; }
-
-.main_position {
-  text-align: center; }
-
-.flex__container {
-  width: 100%; }
-
-.seccionHeader {
-  width: 100%; }
-
-.navbar-nav {
-  width: fit-content; }
-
-.navbarNav {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%; }
-
-.flex__container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: flex-start;
-  flex-direction: inherit;
-  justify-content: space-between; }
-
-.logo {
-  display: grid;
-  height: 100%;
-  align-items: flex-end;
-  padding: 12px; }
-
-.logo2 {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
-  margin-bottom: 2px;
-  padding-bottom: 2px;
-  height: 100%; }
-
-/* contacto */
-.form {
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-  width: 100%;
-  padding-top: 10px; }
-
-.botonContacto {
-  display: flex;
-  justify-content: center; }
-
-.boton_contact {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 20px;
-  margin-left: -90px; }
-
-.imagenContacto {
-  margin-left: 20px; }
-
-.botonContacto {
-  display: flex;
-  margin: 200px; }
-
-.formulario {
-  border: solid 1px black;
-  padding: 10px;
-  padding-top: 50px;
-  flex-wrap: wrap; }
-
-.barranavegacion1 {
-  width: 100%;
-  height: 200%; }
-
-.ulnav {
-  display: flex;
-  flex-direction: row;
-  color: white; }
-
-.main_position {
-  border-top: solid 1px rgba(209, 197, 197, 0.29); }
-
-.barid {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-end; }
-
-.frecuentes__row {
-  margin: auto; }
-
-.caja {
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: rgba(119, 136, 153, 0.729); }
-
-.redes-sociales {
-  margin: auto; }
-
-.logo__principal:hover {
-  transform: scale(0.8);
-  transition: all 1s; }
-
-.btn:hover {
-  transform: scale(1, 2);
-  transition: all 2s; }
-
-.footer__links {
-  margin-bottom: 20px; }
-
+/* botones */
 .button {
   display: flex;
   flex-direction: row;
@@ -333,17 +19,183 @@ footer {
   position: relative;
   text-transform: uppercase; }
 
-.seccionServicios {
-  display: flex;
-  flex-direction: row; }
+.btn:hover {
+  transform: scale(1, 2);
+  transition: all 2s; }
 
-.segundoTitulo {
-  border-top: solid 1px gray; }
+.btn-default {
+  border: 1px solid white;
+  color: white; }
+
+.active {
+  font-size: x-large;
+  background-color: #534e4e;
+  transform: scale(0.8);
+  transition: all 1s; }
+
+.buttonMain {
+  height: 100%; }
+
+.btn-71 {
+  border: 1px solid pink;
+  margin-top: 10px;
+  border-radius: 999px;
+  box-sizing: border-box;
+  font-weight: 800;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  margin-left: 10px; }
+
+/* logos  */
+.logo {
+  display: grid;
+  height: 100%;
+  align-items: flex-end;
+  padding: 12px; }
+
+.logo2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  height: 100%; }
+
+.logo__principal:hover {
+  transform: scale(0.8);
+  transition: all 1s; }
+
+/* servicios */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* body */
+body {
+  color: white;
+  background-color: black;
+  background-image: url(../imagenes/fondo-body.jpg); }
+
+/* header */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  justify-content: flex-end;
+  background-image: url(../imagenes/prueba...jpg); }
+
+.navbar {
+  align-items: flex-end;
+  color: white;
+  width: 100%;
+  height: 150px;
+  font-size: x-large; }
+
+.navbar a {
+  color: white;
+  justify-content: space-between;
+  align-items: flex-end;
+  justify-items: end; }
+
+.navbar-collapse {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: flex-end; }
+
+.nav-item {
+  color: white; }
+
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.259);
+  width: fit-content;
+  height: fit-content; }
+
+.navbar-nav {
+  width: fit-content; }
+
+.navbarNav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%; }
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-items: flex-end; }
+
+.li {
+  color: white; }
+
+/* main */
+.container {
+  color: white;
+  display: grid;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-end;
+  height: 100%; }
+
+.flex__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  flex-direction: inherit;
+  justify-content: space-between; }
+
+.flex__container__item {
+  color: white;
+  display: flex;
+  justify-items: flex-end;
+  width: max-content;
+  height: 100%; }
+
+.parrafo__main {
+  margin: 20px;
+  text-align: justify; }
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px; }
+
+.caja {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(110, 105, 105, 0.744); }
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  color: white;
+  margin: auto; }
+
+.footer__text {
+  color: white; }
+
+.footer__links {
+  margin-bottom: 20px; }
 
 * {
   margin: 0;
   padding: 0; }
 
+/* form contacto */
 .form {
   display: flex;
   justify-content: center;
@@ -351,100 +203,16 @@ footer {
   width: 100%;
   padding-top: 10px; }
 
-.botonContacto {
-  display: flex;
-  justify-content: center; }
-
-.boton_contact {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 20px;
-  margin-left: -90px; }
-
-.imagenContacto {
-  margin-left: 20px; }
-
-.botonContacto {
-  display: flex;
-  margin: 200px; }
-
-.formulario {
-  border: solid 1px black;
-  padding: 10px;
-  padding-top: 50px;
-  flex-wrap: wrap; }
-
-.barranavegacion1 {
-  width: 100%;
-  height: 200%; }
-
-.ulnav {
-  border: solid;
-  display: flex;
-  flex-direction: row;
-  color: white; }
-
-.logoContacto {
-  display: flex;
-  flex-direction: row;
-  flex-direction: row-reverse;
-  width: 100%;
-  justify-content: flex-start; }
-
-.contact_header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.button-contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 100%;
-  width: 50px;
-  justify-content: flex-start; }
-
-.btn-default {
-  border: 1px solid white;
-  color: white; }
-
 .form-horizontal {
   width: 50vh;
   color: white; }
 
-h2 {
-  padding: 30px;
-  text-decoration: underline; }
+/*  main contacto */
+.main__contact {
+  background-color: rgba(0, 0, 0, 0.692); }
 
 .contact-section {
   border-top: solid 1px rgba(209, 197, 197, 0.29); }
-
-.buttonMain {
-  height: 100%; }
-
-.main__contact {
-  background-color: black; }
-
-.btn-71 {
-  border: 1px solid;
-  margin-top: 10px;
-  border-radius: 999px;
-  box-sizing: border-box;
-  display: block;
-  font-weight: 800;
-  overflow: hidden;
-  padding: 1.2rem 3rem;
-  position: relative;
-  text-transform: uppercase; }
-
-.redes-sociales {
-  margin: auto; }
-
-.active {
-  background-color: #5e4f4f;
-  transform: scale(0.8);
-  transition: all 1s; }
 
 .contactame_h2 {
   display: flex;
@@ -471,34 +239,13 @@ h2 {
 
 .seccionServicios {
   display: flex;
+  flex-direction: row;
   padding: 15px; }
-
-.botonServicios1 {
-  display: flex;
-  justify-content: center;
-  padding: 15px; }
-
-.seccionServicios_segundo {
-  display: flex;
-  padding: 10px; }
-
-.primeraseccion__p {
-  padding-right: 10px;
-  padding: 10px; }
-
-.segundaSeccion__p {
-  padding-right: 10px; }
-
-.secciontienda {
-  display: flex;
-  padding: 10px; }
-
-.tienda_p {
-  padding-right: 10px; }
 
 .frecuentes__row {
   border: solid 1px gray;
-  padding: 10px; }
+  padding: 10px;
+  margin: auto; }
 
 @media screen and (max-width: 468px) {
   .logo {
@@ -579,8 +326,9 @@ h2 {
   .header {
     height: 100%;
     width: 100%;
-    justify-content: space-around; }
+    justify-content: flex-end; }
   .buttonMain {
     display: flex;
-    flex-direction: row;
-    width: 100%; } }
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: flex-end; } }

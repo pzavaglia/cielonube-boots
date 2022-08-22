@@ -1,100 +1,93 @@
 
-.segundoTitulo{
-    padding: 5px;
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: nowrap;
-} 
-
-.seccionmain{
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-    width: 100%; 
-}
-
-.main__p{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding-right: 20px;
-    width: 100%;
-    font-size: xx-large;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.footer_nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    border-top: solid 1px black;
-}
-.ul_footer{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    align-items: flex-start;   
-    flex-wrap: nowrap;
-} 
- 
-.falsoCarrousel{
-    width: 60%;
-    height: 400px;
-    margin: 15px auto;
-    border: solid 1px;
-    background-image: url(./imagenes/signos-fondo.jfif);
-    background-repeat:  no-repeat;
-    background-size: cover;
-    animation: carrousel 5s infinite;
-} 
- @keyframes carrousel{
-    0%{
-        background-image: url(/imagenes/libra2.jfif)
-    }
-    50%{
-        background-image: url(./imagenes/image.romi.fondo2.jpeg);
-    }
-}
-.barranavegacion1{
-    background-color: rgba(128, 128, 128, 0.094);
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: flex-end;
-    flex-grow: initial;
-    list-style: none;
-    
-}
-.item1{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-}
-main{
-    color: white;
-    background-image: url(../imagenes/prueba...jpg);
-    background-color: rgba(0, 0, 0, 0.046);
-    
-
-}
-body{
-    background-image: url(../imagenes/prueba...jpg);
-}
 .card{
     margin: 5px;
 }
-.parrafo__main{
-    margin: 20px;
-    text-align: justify;
+
+   /* botones */
+
+   .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 10px;
+    border-radius: 999px;
+    box-sizing: border-box;
+    font-weight: 800;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    position: relative;
+    text-transform: uppercase;
 }
-.caja{
-    padding: 10px;
+
+.btn:hover{
+    transform: scale(1,2);
+    transition: all 2s;
 }
+
+.btn-default{
+    border: 1px solid white;
+    color: white;
+}
+
+.active{
+    font-size: x-large;
+    background-color: rgb(83, 78, 78);
+    transform: scale(0.8);
+    transition: all 1s;  
+}
+.buttonMain{
+    height: 100%;
+}
+
+.btn-71{
+    border: 1px solid pink;
+    margin-top: 10px;
+    border-radius: 999px;
+    box-sizing: border-box;
+    font-weight: 800;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+   /* logos  */
+
+   .logo{
+    display: grid;
+    height: 100%;
+    align-items: flex-end;
+    padding: 12px;
+}
+
+.logo2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    height: 100%;
+}
+
+.logo__principal:hover{
+    transform: scale(0.8);
+    transition: all 1s;  
+}
+
+
+
+/* servicios */
+
+
+
+

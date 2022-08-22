@@ -24,36 +24,37 @@
         width: max-content;
     }
 }
+
 @media screen and(max-width: 768px){
-        .list{
-            height: 100%;
-            text-align: none;
-            justify-items: flex-start;
-            margin-left: 5px;
-            margin-top: 20px;
-        }
-        .buttonMain{
-            height: 100%; 
-            width: 100%;
-        }
-        .header{
-            height: 100%;
-        }
-        .navbar-toggler{
-            background-color: gray; 
-        }
-        .seccionServicios{
-            display: flex;
-            flex-direction: column-reverse;
-            flex-wrap: wrap;
-            width: auto;
-        }
-        .itemServicio{
-            display: flex;
-            flex-direction: row-reverse;
-            flex-wrap: wrap;
-            width: auto;
-        }
+    .list{
+        height: 100%;
+        text-align: none;
+        justify-items: flex-start;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .buttonMain{
+        height: 100%; 
+        width: 100%;
+    }
+    .header{
+        height: 100%;
+    }
+    .navbar-toggler{
+        background-color: gray; 
+    }
+    .seccionServicios{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .itemServicio{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        width: auto;
+    }
 }
 
 @media screen and(max-width: 1024px){

@@ -1,21 +1,7 @@
 
 .seccionServicios{
     display: flex;
+    flex-direction: row;
     padding: 15px;
 }
-.botonServicios1{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
-.seccionServicios_segundo{
-    display: flex;
-    padding: 10px;
-}
-.primeraseccion__p{
-    padding-right: 10px;
-    padding: 10px;
-}
-.segundaSeccion__p{
-    padding-right: 10px;
-}
+
