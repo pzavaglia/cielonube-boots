@@ -1,0 +1,107 @@
+@media screen and(max-width: 468px){
+    .logo{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-left: 2px;
+    }
+    .buttonMain{
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    width: fit-content;
+    justify-content: flex-start;
+    }
+    .header{
+    height: 100%;
+    width: 100%;
+    }
+    .navbar-toggler{
+        background-color: gray;
+    }
+    .form-horizontal{
+        width: max-content;
+    }
+}
+@media screen and(max-width: 768px){
+        .list{
+            height: 100%;
+            text-align: none;
+            justify-items: flex-start;
+            margin-left: 5px;
+            margin-top: 20px;
+        }
+        .buttonMain{
+            height: 100%; 
+            width: 100%;
+        }
+        .header{
+            height: 100%;
+        }
+        .navbar-toggler{
+            background-color: gray; 
+        }
+        .seccionServicios{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            width: auto;
+        }
+        .itemServicio{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            width: auto;
+        }
+}
+
+@media screen and(max-width: 1024px){
+    .header{
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .buttonMain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .logo__principal{
+        margin-top: 60px;
+        padding: 8px;
+    }
+}
+@media screen and(  max-width: 1440px){
+    .header{
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .buttonMain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .border-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+ @media screen and(  max-width: 2560px){
+    .header{
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .buttonMain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}

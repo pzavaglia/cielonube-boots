@@ -2,16 +2,17 @@
 .segundoTitulo{
     padding: 5px;
     margin-top: 10px;
-/*     display: flex;
-    flex-wrap: nowrap; */
-}
+    display: flex;
+    flex-wrap: nowrap;
+} 
+
 .seccionmain{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     margin: 10px;
-    width: 100%;
+    width: 100%; 
 }
+
 .main__p{
     display: flex;
     flex-direction: row;
@@ -38,14 +39,12 @@ footer{
 .ul_footer{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 0px;
     align-items: flex-start;   
     flex-wrap: nowrap;
-}
-h4{
-    padding: 15px;
-}
-/* .falsoCarrousel{
+} 
+ 
+.falsoCarrousel{
     width: 60%;
     height: 400px;
     margin: 15px auto;
@@ -54,15 +53,14 @@ h4{
     background-repeat:  no-repeat;
     background-size: cover;
     animation: carrousel 5s infinite;
-} */
-@keyframes carrousel{
+} 
+ @keyframes carrousel{
     0%{
         background-image: url(/imagenes/libra2.jfif)
     }
     50%{
         background-image: url(./imagenes/image.romi.fondo2.jpeg);
     }
-
 }
 .barranavegacion1{
     background-color: rgba(128, 128, 128, 0.094);
@@ -89,4 +87,14 @@ main{
 }
 body{
     background-image: url(../imagenes/prueba...jpg);
+}
+.card{
+    margin: 5px;
+}
+.parrafo__main{
+    margin: 20px;
+    text-align: justify;
+}
+.caja{
+    padding: 10px;
 }
