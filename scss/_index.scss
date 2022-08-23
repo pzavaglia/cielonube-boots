@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
     background-color: black;
-    color: white;
+    color: $color-secundario;
     width: 100%;
     border: 1px solid;
     margin-top: 10px;
@@ -29,8 +29,8 @@
 }
 
 .btn-default{
-    border: 1px solid white;
-    color: white;
+    border: 1px solid $color-secundario;
+    color: $color-secundario;
 }
 
 .active{

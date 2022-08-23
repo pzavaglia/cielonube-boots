@@ -8,7 +8,7 @@
    /* body */
 
 body{
-    color: white;
+    color: $color-secundario;
     background-color: black;
     background-image: url(../imagenes/fondo-body.jpg);
 }
@@ -25,14 +25,14 @@ header{
 
 .navbar{
     align-items: flex-end;
-    color: white;
+    color: $color-secundario;
     width: 100%;
     height: 150px;
     font-size: x-large;
 }
 
 .navbar a{
-    color: white;
+    color: $color-secundario;
     justify-content: space-between;
     align-items: flex-end;
     justify-items:end;
@@ -45,7 +45,7 @@ header{
 }
 
 .nav-item{
-    color: white;
+    color: $color-secundario;
 }
 
 .navbar-toggler{
@@ -73,14 +73,14 @@ ul{
 }
 
 .li{
-    color: white;
+    color: $color-secundario;
 }
 
 
    /* main */
 
 .container{
-    color: white;
+    color: $color-secundario;
     display: grid;
     flex-direction:column;
     justify-items: center; 
@@ -99,7 +99,7 @@ ul{
 }
 
 .flex__container__item{
-    color: white;
+    color: $color-secundario;
     display: flex;
     justify-items: flex-end;
     width:max-content;
@@ -135,13 +135,12 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     position: relative;
-    color: white;
-    margin: auto;
-    
+    color: $color-secundario;
+    margin: auto; 
 } 
 
 .footer__text{
-    color: white;
+    color: $color-secundario;
 }
 
 .footer__links{
