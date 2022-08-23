@@ -9,7 +9,7 @@
 
 body{
     color: $color-secundario;
-    background-color: black;
+    background-color: $color-principal;
     background-image: url(../imagenes/fondo-body.jpg);
 }
 
@@ -20,7 +20,7 @@ header{
     width: 100%;
     justify-content: space-between;
     justify-content: flex-end;
-    background-image: url(../imagenes/prueba...jpg);
+    background-image: url(../imagenes/fondo-body.jpg);
 }
 
 .navbar{

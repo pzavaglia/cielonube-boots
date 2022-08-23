@@ -71,7 +71,6 @@
   transform: scale(0.8);
   transition: all 1s; }
 
-/* servicios */
 * {
   margin: 0;
   padding: 0; }
@@ -88,7 +87,7 @@ header {
   width: 100%;
   justify-content: space-between;
   justify-content: flex-end;
-  background-image: url(../imagenes/prueba...jpg); }
+  background-image: url(../imagenes/fondo-body.jpg); }
 
 .navbar {
   align-items: flex-end;
@@ -237,6 +236,7 @@ footer {
   justify-content: center;
   width: 100%; }
 
+/* servicios */
 .seccionServicios {
   display: flex;
   flex-direction: row;
